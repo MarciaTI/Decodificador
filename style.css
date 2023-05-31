@@ -1,0 +1,166 @@
+main {
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+body {
+    background-color: #DCDCDC;
+    width: 1440px;
+    height: 1024px;
+}
+.logoalura {
+    width: 10%;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.digitexto {                        /* Digite seu texto */
+    position: absolute;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-family: "Inter";
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;                 /*color blue*/
+    border:  none;
+    border-radius: 10px;
+}
+.placeholder {
+    color: #0A3871;
+    textarea: focus;
+    outline: none;
+}
+.letrasminusculas {             /*img vector.png*/
+    width: 350px;
+    height: 18px;
+    position: absolute;
+    font-family: "Inter";
+    font-size: 12px;
+    line-height: 18px;
+    color: #495057;             /*Grey/grey-400 */
+    opacity: 0.8;
+/* Apenas letras minúsculas e sem acento. */
+    .p
+    font-size: 12px;
+    line-height: 18px;
+    color: #495057;             /*Grey/grey-400 */
+    opacity: 0.8;
+    margin-left: 40px;          /*posição na tela*/
+    margin-top: 700px;
+}
+.botaocriptografar {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: px;
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    margin-left: 40px;
+    margin-top: 740px;
+    background: #0A3871;        /* Color blue*/
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 19px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+}
+.botaocriptografar:hover {
+    background: darkgrey;
+    font-weight: bold;
+    color: #0A3871;                 /* Color blue*/
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.botaodescripto {
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    margin-left: 420px;
+    margin-top: 740px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;          /* Color blue*/
+    background: #D8DFE8;                /* Light grey */
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;                     /* Color blue*/
+}
+.botaodescripto:hover {
+    background: darkgrey;
+    font-weight: bold;
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+}
+.textonenhumaencontrada {
+    position: absolute;
+    width: 340px;
+    margin-top: 300px;
+    margin-left: 940px;
+    font-family: "Inter";
+    font-size: 24px;
+    line-height: 150%;
+    border-radius: 10px;
+    color: #0A3871;              /* Color blue*/
+}
+.placeholder {
+    color: #0A3871;
+    textarea: focus;
+    outline: none;
+}
+.retangulobranco {
+    position: absolute;
+    width: 400px;
+    height: 900px;
+    left: 1000px;
+    top: 50px;
+    background: white;
+    box-shadow: 0px 24px 28px -8px rgba(0, 0, 0, 0.08); /* shadow */
+    border-radius: 32px;
+}
+.menino {                       /* High quality products 1 1.png */
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 120px;
+}
+.botaocopiar {
+    position: absolute;
+    display: inline-block;
+    flex-direction: row;
+    width: 328px;
+    height: 67px;
+    margin-left: 950px;
+    margin-top: 740px;
+    background: white;
+    border: 1px solid #0A3871;        /* Color blue*/
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 20px;                  /* Text Button */
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;                   /* Color blue*/
+}
+.botaocopiar:hover {
+    background: darkgrey;
+    font-weight: bold;
+    transform: scale(1.1);
+    color: white;
+}
+footer {
+    text-align: left;
+    margin-top: 860px;
+    left: 100px;
+    bottom: 15px;
+    font-size: 18px;
+    color: #0A3871;                     /* Color blue*/
+}
+.logotipo {
+    max-width:50px;
+    max-height:25px;
+    width: auto;
+    height: auto;
+}
