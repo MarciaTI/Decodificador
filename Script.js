@@ -23,6 +23,7 @@ function btnCopiar() {
     const mensagemCopiada = document.querySelector(".textonenhumaencontrada");
     mensagemCopiada.select();
     document.execCommand('copy');
+    textarea.value = mensagemCopiada.value;
     mensagem.value = " ";
 }
 
